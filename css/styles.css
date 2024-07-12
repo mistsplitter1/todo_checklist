@@ -1,0 +1,102 @@
+body {
+    background-color: #403d39;  
+    }       
+
+.y_axis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.add_new_element{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ccc5b9;
+    color: #888;
+    width: 40%;
+    border-radius: 20px;
+    padding: 0.5em;
+    padding-left: 1em;
+    margin: 0.5em;
+    font-size: 1.5em;
+    flex: 0.9;
+    }
+
+.add_button {
+    max-height: 45px;
+    min-height: 45px;
+    max-width: 45px;
+    min-width: 40px;
+    width: 100%;
+    flex: 0.1;
+    margin: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    background-image: url('../assets/add.png');
+    background-size: 100% 100%;
+    background-position: center;
+    }
+
+.todo_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 4em;
+    }
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+.line.first_line {
+    width: 70%;
+    margin-top: 2em;
+    }
+
+.check{
+    max-height: 35px;
+    min-height: 30px;
+    max-width: 35px;
+    min-width: 30px;
+    margin: 0.8em;
+    margin-top: 1.4em;
+    background-color: #fffcf2;
+    border-radius: 50%;
+    cursor: pointer;
+    flex: 0.1;
+}
+
+.todo_element {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0.5em;
+    padding: 0.5em;
+    padding-left: 1em;
+    font-size: 1.5em;
+    background-color: #ccc5b9;
+    flex: 0.8;
+    }
+
+.remove_button {
+    max-height: 45px;
+    min-height: 45px;
+    max-width: 45px;
+    min-width: 40px;
+    width: 100%;
+    flex: 0.1;
+    margin: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    background-image: url('../assets/remove.png');
+    background-size: 100% 100%;
+    background-position: center;
+}
